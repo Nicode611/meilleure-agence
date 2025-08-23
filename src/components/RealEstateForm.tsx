@@ -3,6 +3,9 @@
 import { useState } from 'react';
 
 interface FormData {
+  // Code postal
+  postalCode: string;
+  
   // Étape 1 - Type de projet
   projectType: string;
   propertyType: string;
@@ -31,6 +34,7 @@ interface FormData {
 }
 
 const initialFormData: FormData = {
+  postalCode: '',
   projectType: '',
   propertyType: '',
   region: '',
@@ -49,9 +53,16 @@ const initialFormData: FormData = {
   additionalInfo: ''
 };
 
-export default function RealEstateForm() {
+interface RealEstateFormProps {
+  postalCode: string;
+}
+
+export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
   const [currentStep, setCurrentStep] = useState(1);
-  const [formData, setFormData] = useState<FormData>(initialFormData);
+  const [formData, setFormData] = useState<FormData>({
+    ...initialFormData,
+    postalCode: postalCode
+  });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
