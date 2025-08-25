@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import RealEstateForm from '@/components/RealEstateForm';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
@@ -98,7 +99,7 @@ export default function Home() {
         <div className="h-full flex items-center px-4">
           <div className="w-[311px] h-6">
             {/* Logo placeholder - vous pouvez remplacer par votre logo */}
-            <div className="text-xl text-[#ED6447]">Meilleure.agence.be</div>
+            <div className="text-md font-light text-primary-600">meilleure.agence.be</div>
           </div>
         </div>
       </nav>
@@ -107,12 +108,11 @@ export default function Home() {
       <main className="relative">
         {/* Header Section with Background */}
         <div className="relative w-full h-[827px] bg-cover bg-center overflow-hidden" 
-             style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/hero.jpg")' }}>
+             style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/hero2.png")', backgroundPosition: 'bottom' }}>
           {/* Animated background elements - Liquid Glass Style */}
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-20 w-32 h-32 rounded-full liquid-glass animate-float" style={{animationDelay: '0s'}}></div>
-            <div className="absolute top-40 right-32 w-24 h-24 rounded-full liquid-glass animate-float" style={{animationDelay: '1.5s'}}></div>
-            <div className="absolute bottom-32 left-1/4 w-20 h-20 rounded-full liquid-glass animate-float" style={{animationDelay: '3s'}}></div>
+            <div className="absolute bottom-10 left-3/4 w-20 h-20 rounded-full liquid-glass animate-float" style={{animationDelay: '3s'}}></div>
             <div className="absolute top-1/2 left-1/3 w-16 h-16 rounded-full liquid-glass animate-float" style={{animationDelay: '2s'}}></div>
             <div className="absolute bottom-20 right-1/4 w-28 h-28 rounded-full liquid-glass animate-float" style={{animationDelay: '4s'}}></div>
           </div>
@@ -127,11 +127,11 @@ export default function Home() {
               </p>
               
               {/* Formulaire de code postal */}
-              <div className="glass-card rounded-2xl p-8 max-w-md mx-auto shadow-large animate-slide-up">
-                <p className="text-white text-center mb-6 font-semibold text-lg">
+              <div className="bg-white rounded-2xl p-8 max-w-md mx-auto shadow-large animate-slide-up">
+                <p className="text-black text-center mb-6 font-semibold text-lg">
                   Entrez votre code postal ici
                 </p>
-                <div className="flex gap-3 mb-4 justify-center">
+                <div className="flex gap-3 justify-center">
                   {[0, 1, 2, 3].map((index) => (
                     <input
                       key={index}
@@ -141,10 +141,10 @@ export default function Home() {
                       value={postalCode[index]}
                       onChange={(e) => handlePostalCodeChange(index, e.target.value)}
                       onKeyDown={(e) => handleKeyDown(index, e)}
-                      className={`w-10 h-14 border-b-2 rounded-lg text-center text-lg text-black font-mono focus:outline-none focus:bg-white transition-all duration-200 ${
+                      className={`w-10 h-14 border-b-2 rounded-lg text-center text-lg text-black bg-gray-300 font-mono focus:outline-none focus:bg-gray-100 transition-all duration-200 ${
                         postalCode[index] 
-                          ? 'border-primary-500 bg-white' 
-                          : 'border-secondary-500 bg-gray-50'
+                          ? 'border-secondary-500' 
+                          : 'border-primary-500'
                       }`}
                       placeholder="_"
                     />
@@ -153,22 +153,35 @@ export default function Home() {
                 <div className="flex justify-center mb-4">
                   
                 </div>
-                {isPostalCodeValid && (
-                  <p className="text-green-600 text-sm text-center mb-4">
-                    ✓ Code postal belge valide : {getFullPostalCode()}
-                  </p>
-                )}
-                {postalCode.every(digit => digit !== '') && !isPostalCodeValid && (
-                  <p className="text-red-500 text-sm text-center mb-4">
-                    ❌ Code postal invalide. Veuillez entrer un code postal belge valide (1000-8999).
-                  </p>
-                )}
+                {/* Barres de validation sous chaque chiffre */}
+                <div className="flex gap-3 justify-center mb-4">
+                  {[0, 1, 2, 3].map((index) => {
+                    let barColor = 'bg-gray-300'; // Gris par défaut (vide)
+                    
+                    if (postalCode[index] !== '') {
+                      if (isPostalCodeValid) {
+                        barColor = 'bg-green-500'; // Vert si valide
+                      } else if (postalCode.every(digit => digit !== '')) {
+                        barColor = 'bg-red-500'; // Rouge si invalide
+                      } else {
+                        barColor = 'bg-blue-500'; // Bleu si en cours de saisie
+                      }
+                    }
+                    
+                    return (
+                      <div
+                        key={index}
+                        className={`w-10 h-1 rounded-full transition-all duration-300 ${barColor}`}
+                      />
+                    );
+                  })}
+                </div>
                 <button 
                   onClick={handleContinue}
                   disabled={!isPostalCodeValid}
                   className={`w-full py-4 px-6 rounded-xl transition-all duration-300 font-medium text-lg shadow-medium transform hover:-translate-y-1 ${
                     isPostalCodeValid 
-                      ? 'bg-primary-600 text-white hover:bg-primary-700 hover:shadow-large cursor-pointer' 
+                      ? 'bg-primary-500 text-white hover:bg-primary-700 hover:shadow-large cursor-pointer' 
                       : 'bg-gray-400 text-gray-200 cursor-not-allowed'
                   }`}
                 >
@@ -199,16 +212,13 @@ export default function Home() {
               {/* Step 1 */}
               <div className="text-center group">
                 <div className="relative">
-                  <div className="w-20 h-20 mx-auto mb-6 bg-primary-100 rounded-2xl flex items-center justify-center group-hover:bg-primary-200 transition-colors duration-300 shadow-soft">
+                  <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center group-hover:cursor-pointer group-hover:scale-110 duration-300 shadow-soft">
                   <Image
                       src="/pen.svg" 
                       alt="Step 1" 
                       width={48} 
                       height={48} 
                     />
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
-                    1
                   </div>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
@@ -222,7 +232,7 @@ export default function Home() {
               {/* Step 2 */}
               <div className="text-center group">
                 <div className="relative">
-                  <div className="w-20 h-20 mx-auto mb-6 bg-secondary-100 rounded-2xl flex items-center justify-center group-hover:bg-secondary-200 transition-colors duration-300 shadow-soft">
+                  <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center group-hover:cursor-pointer group-hover:scale-110 duration-300 shadow-soft">
                     <Image
                       src="/doc.svg" 
                       alt="Step 2" 
@@ -230,11 +240,8 @@ export default function Home() {
                       height={48} 
                     />
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-secondary-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
-                    2
-                  </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4 group-hover:text-secondary-600 transition-colors duration-300">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
                 Recevez jusqu&apos;à 4 devis gratuits
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -245,7 +252,7 @@ export default function Home() {
               {/* Step 3 */}
               <div className="text-center group">
                 <div className="relative">
-                  <div className="w-20 h-20 mx-auto mb-6 bg-accent-100 rounded-2xl flex items-center justify-center group-hover:bg-accent-200 transition-colors duration-300 shadow-soft">
+                  <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center group-hover:cursor-pointer group-hover:scale-110 duration-300 shadow-soft">
                   <Image
                       src="/user.svg" 
                       alt="Step 3" 
@@ -253,11 +260,8 @@ export default function Home() {
                       height={48} 
                     />
                   </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent-600 text-white rounded-full flex items-center justify-center text-sm font-bold">
-                    3
-                  </div>
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4 group-hover:text-accent-600 transition-colors duration-300">
+                <h3 className="text-xl font-semibold text-gray-900 mb-4 group-hover:text-primary-600 transition-colors duration-300">
                 Choisissez et économisez
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
@@ -275,7 +279,7 @@ export default function Home() {
           <div className="flex flex-col-reverse md:grid md:grid-cols-4 gap-8 px-4 md:px-16">
             {/* Logo and Description */}
             <div className="col-span-1 md:col-span-2">
-              <div className="text-3xl text-[#ED6447] font-bold mb-4 font-display">meilleure.agence.be</div>
+              <div className="text-3xl text-primary-600 font-bold mb-4 font-display">meilleure.agence.be</div>
               <p className="text-gray-600 text-[0.7rem] md:max-w-xs leading-relaxed">
                 Recevez jusqu&apos;à 6 devis de professionnels de votre région et comparez pour faire le meilleur choix.
               </p>
@@ -302,9 +306,9 @@ export default function Home() {
             <div className="flex flex-col-reverse text-[0.7rem] md:flex-row justify-between md:items-center">
               <span className="text-gray-500 mt-4 md:mt-0 md:mb-0">© 2025 Hoogstoel - Tous droits réservés</span>
               <div className="flex md:flex-row flex-col justify-center md:gap-6 text-gray-500">
-                <a href="#" className="hover:text-primary-600 transition-colors duration-200">Déclaration de confidentialité</a>
-                <a href="#" className="hover:text-primary-600 transition-colors duration-200">Cookies</a>
-                <a href="#" className="hover:text-primary-600 transition-colors duration-200">Conditions générales</a>
+                <Link href="/politique-confidentialite" className="hover:text-primary-600 transition-colors duration-200">Déclaration de confidentialité</Link>
+                <Link href="/mentions-legales" className="hover:text-primary-600 transition-colors duration-200">Mentions légales</Link>
+                <Link href="/conditions-utilisation" className="hover:text-primary-600 transition-colors duration-200">Conditions générales</Link>
               </div>
             </div>
           </div>
