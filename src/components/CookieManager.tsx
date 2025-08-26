@@ -63,20 +63,20 @@ export default function CookieManager() {
     return (
       <button
         onClick={() => setShowManager(true)}
-        className="fixed right-0 bottom-8 z-[9999] bg-white hover:bg-gray-50 text-gray-600 hover:text-primary-600 border border-gray-200 hover:border-primary-300 rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-500 ease-out group overflow-hidden hover:w-auto w-16 h-12"
+        className="fixed right-0 bottom-8 z-[9999] bg-white hover:bg-gray-50 text-gray-600 hover:text-primary-600 border border-gray-200 hover:border-primary-300 hover:cursor-pointer rounded-l-lg shadow-lg hover:shadow-xl transition-all duration-500 ease-out group overflow-hidden hover:w-auto w-16 h-12"
       >
         <div className="flex items-center justify-center space-x-2 px-3 py-2 min-w-max h-full">
+        <span className="text-2xl flex-shrink-0 transition-transform duration-500 ease-out group-hover:scale-110">🍪</span>
           <span className="text-sm font-medium opacity-0 group-hover:opacity-100 transition-all duration-500 ease-out transform translate-x-2 group-hover:translate-x-0 whitespace-nowrap">
             Gérer mes cookies
           </span>
-          <span className="text-2xl flex-shrink-0 transition-transform duration-500 ease-out group-hover:scale-110">🍪</span>
         </div>
       </button>
     );
   }
 
   return (
-    <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center p-4">
+    <div className="fixed inset-0 z-50 bg-[#00000080] backdrop-blur-xs flex items-center justify-center p-4">
       <div className="bg-white rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl">
         <div className="sticky top-0 bg-white p-6 border-b border-gray-200 rounded-t-2xl">
           <div className="flex justify-between items-center">

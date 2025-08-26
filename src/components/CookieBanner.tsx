@@ -80,7 +80,7 @@ export default function CookieBanner() {
               </h3>
               <p className="text-gray-600 text-sm">
                 Nous utilisons des cookies pour améliorer votre expérience, analyser le trafic et personnaliser le contenu. 
-                En cliquant sur "Accepter tout", vous consentez à l'utilisation de tous les cookies. 
+                En cliquant sur &quot;Accepter tout&quot;, vous consentez à l&apos;utilisation de tous les cookies. 
                 <Link href="/cookies" className="text-primary-600 hover:text-primary-700 underline ml-1">
                   En savoir plus
                 </Link>
@@ -144,7 +144,7 @@ export default function CookieBanner() {
               <div className="flex items-center justify-between p-3 bg-blue-50 rounded-lg">
                 <div>
                   <h4 className="font-medium text-blue-800">📊 Cookies de Performance</h4>
-                  <p className="text-sm text-blue-600">Aide à analyser l'utilisation du site</p>
+                  <p className="text-sm text-blue-600">Aide à analyser l&apos;utilisation du site</p>
                 </div>
                 <div className="flex items-center">
                   <input
@@ -160,7 +160,7 @@ export default function CookieBanner() {
               <div className="flex items-center justify-between p-3 bg-purple-50 rounded-lg">
                 <div>
                   <h4 className="font-medium text-purple-800">⚙️ Cookies de Fonctionnalité</h4>
-                  <p className="text-sm text-purple-600">Améliorent l'expérience utilisateur</p>
+                  <p className="text-sm text-purple-600">Améliorent l&apos;expérience utilisateur</p>
                 </div>
                 <div className="flex items-center">
                   <input

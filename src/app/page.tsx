@@ -319,7 +319,7 @@ export default function Home() {
 
       {/* Modal du formulaire */}
       {showForm && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4 animate-fade-in">
+        <div className="fixed inset-0 bg-[#0000009b] backdrop-blur-xs z-50 flex items-center justify-center p-4 animate-fade-in">
           <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[95vh] overflow-y-auto shadow-2xl animate-slide-up">
             <div className="sticky top-0 bg-white p-6 border-b border-gray-200 flex justify-between items-center rounded-t-2xl">
               <div>

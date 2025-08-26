@@ -230,7 +230,6 @@ export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
                     hour: '2-digit',
                     minute: '2-digit'
                 })}</p>
-                <p>🚀 Prêt à vous accompagner dans votre projet immobilier !</p>
             </div>
         </div>
     </div>
