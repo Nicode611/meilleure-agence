@@ -308,11 +308,9 @@ export default function Home() {
             <div className="flex flex-col-reverse text-[0.7rem] md:flex-row justify-between md:items-center">
               <span className="text-gray-500 mt-4 md:mt-0 md:mb-0">© 2025 Hoogstoel - Tous droits réservés</span>
               <div className="flex md:flex-row flex-col justify-center md:gap-6 text-gray-500">
-                <Link href="/politique-confidentialite" className="hover:text-primary-600 transition-colors duration-200">Déclaration de confidentialité</Link>
+                <Link href="/politique-confidentialite" className="hover:text-primary-600 transition-colors duration-200">Politique de confidentialité</Link>
                 <Link href="/cookies" className="hover:text-primary-600 transition-colors duration-200">Cookies</Link>
                 <Link href="/mentions-legales" className="hover:text-primary-600 transition-colors duration-200">Mentions légales</Link>
-                <Link href="/conditions-utilisation" className="hover:text-primary-600 transition-colors duration-200">Conditions générales</Link>
-                <Link href="/merci" className="hover:text-primary-600 transition-colors duration-200">Confirmation</Link>
               </div>
             </div>
           </div>

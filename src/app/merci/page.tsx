@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Merci() {
   return (
@@ -80,14 +79,14 @@ export default function Merci() {
             </h3>
             <p className="text-yellow-700">
               Vous recevrez un appel de notre équipe dans les <strong>24 heures ouvrables</strong>. 
-              Si vous n'avez pas de nouvelles, n'hésitez pas à nous contacter.
+              Si vous n&apos;avez pas de nouvelles, n&apos;hésitez pas à nous contacter.
             </p>
           </div>
 
           {/* Contact d'urgence */}
           <div className="bg-gray-50 rounded-xl p-6 mb-8">
             <h3 className="text-lg font-semibold text-gray-800 mb-3">
-              📞 Besoin d'aide immédiate ?
+              📞 Besoin d&apos;aide immédiate ?
             </h3>
             <p className="text-gray-700 mb-4">
               Notre équipe est disponible pour répondre à vos questions urgentes.
@@ -114,7 +113,7 @@ export default function Merci() {
               href="/" 
               className="inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-medium rounded-xl hover:bg-primary-700 transition-all duration-200 hover:scale-105 shadow-lg"
             >
-              🏠 Retour à l'accueil
+              🏠 Retour à l&apos;accueil
             </Link>
             
             <Link 
@@ -140,9 +139,6 @@ export default function Merci() {
                 </Link>
                 <Link href="/mentions-legales" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
                   Mentions Légales
-                </Link>
-                <Link href="/conditions-utilisation" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
-                  Conditions d'Utilisation
                 </Link>
               </div>
             </div>

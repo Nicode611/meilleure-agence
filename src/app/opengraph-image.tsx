@@ -12,7 +12,7 @@ export default async function Image() {
     (
       <div
         style={{
-          background: 'linear-gradient(135deg, #3b82f6 0%, #22c55e 100%)',
+          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -20,84 +20,136 @@ export default async function Image() {
           alignItems: 'center',
           justifyContent: 'center',
           padding: '40px',
+          position: 'relative',
+          overflow: 'hidden',
         }}
       >
-        {/* Logo */}
+        {/* Éléments décoratifs en arrière-plan */}
         <div
           style={{
-            fontSize: '64px',
-            fontWeight: 'bold',
+            position: 'absolute',
+            top: '50px',
+            left: '50px',
+            width: '120px',
+            height: '120px',
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.1)',
+            backdropFilter: 'blur(10px)',
+          }}
+        />
+        <div
+          style={{
+            position: 'absolute',
+            bottom: '80px',
+            right: '80px',
+            width: '80px',
+            height: '80px',
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.08)',
+            backdropFilter: 'blur(8px)',
+          }}
+        />
+        <div
+          style={{
+            position: 'absolute',
+            top: '200px',
+            right: '120px',
+            width: '60px',
+            height: '60px',
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.06)',
+            backdropFilter: 'blur(6px)',
+          }}
+        />
+
+        {/* Logo/Nom du site */}
+        <div
+          style={{
+            fontSize: '56px',
+            fontWeight: '300',
             color: 'white',
-            marginBottom: '20px',
-            textShadow: '0 4px 8px rgba(0,0,0,0.3)',
+            marginBottom: '30px',
+            textShadow: '0 4px 12px rgba(0,0,0,0.3)',
+            letterSpacing: '1px',
           }}
         >
-          Hoogstoel
+          meilleure.agence.be
         </div>
         
         {/* Titre principal */}
         <div
           style={{
-            fontSize: '48px',
+            fontSize: '52px',
             fontWeight: 'bold',
             color: 'white',
             textAlign: 'center',
-            marginBottom: '20px',
-            textShadow: '0 2px 4px rgba(0,0,0,0.3)',
-            maxWidth: '800px',
-            lineHeight: '1.2',
+            marginBottom: '24px',
+            textShadow: '0 3px 8px rgba(0,0,0,0.4)',
+            maxWidth: '900px',
+            lineHeight: '1.1',
+            fontFamily: 'system-ui, -apple-system, sans-serif',
           }}
         >
-          Trouvez le spécialiste de votre région
+          Choisissez votre meilleure agence immobilière
         </div>
         
         {/* Sous-titre */}
         <div
           style={{
-            fontSize: '24px',
-            color: 'rgba(255,255,255,0.9)',
+            fontSize: '28px',
+            color: 'rgba(255,255,255,0.95)',
             textAlign: 'center',
             marginBottom: '40px',
-            textShadow: '0 1px 2px rgba(0,0,0,0.3)',
-            maxWidth: '600px',
+            textShadow: '0 2px 4px rgba(0,0,0,0.3)',
+            maxWidth: '700px',
+            lineHeight: '1.3',
+            fontWeight: '500',
           }}
         >
-          Comparez les devis avant de vous décider et économisez jusqu&apos;à 40% !
+          Recevez 4 devis d&apos;agence immobilière de votre région avant de vous décider et économisez jusqu&apos;à 50%
+        </div>
+        
+        {/* Icône maison */}
+        <div
+          style={{
+            fontSize: '48px',
+            marginTop: '20px',
+            filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.3))',
+          }}
+        >
+          🏠
         </div>
         
         {/* Éléments décoratifs */}
         <div
           style={{
             display: 'flex',
-            gap: '20px',
-            marginTop: '20px',
+            gap: '16px',
+            marginTop: '30px',
           }}
         >
           <div
             style={{
-              width: '16px',
-              height: '16px',
-              backgroundColor: 'white',
+              width: '12px',
+              height: '12px',
+              backgroundColor: 'rgba(255,255,255,0.9)',
               borderRadius: '50%',
-              opacity: '0.8',
             }}
           />
           <div
             style={{
-              width: '16px',
-              height: '16px',
-              backgroundColor: 'white',
+              width: '12px',
+              height: '12px',
+              backgroundColor: 'rgba(255,255,255,0.7)',
               borderRadius: '50%',
-              opacity: '0.6',
             }}
           />
           <div
             style={{
-              width: '16px',
-              height: '16px',
-              backgroundColor: 'white',
+              width: '12px',
+              height: '12px',
+              backgroundColor: 'rgba(255,255,255,0.5)',
               borderRadius: '50%',
-              opacity: '0.4',
             }}
           />
         </div>
