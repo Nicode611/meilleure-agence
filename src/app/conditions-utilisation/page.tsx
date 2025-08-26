@@ -7,9 +7,9 @@ export default function ConditionsUtilisation() {
       <div className="bg-primary-600 text-white py-8">
         <div className="max-w-4xl mx-auto px-4">
           <Link href="/" className="text-primary-100 hover:text-white transition-colors duration-200 mb-4 inline-block">
-            ← Retour à l'accueil
+            ← Retour à l&apos;accueil
           </Link>
-          <h1 className="text-4xl font-bold font-display">Conditions d'Utilisation</h1>
+          <h1 className="text-4xl font-bold font-display">Conditions d&apos;Utilisation</h1>
           <p className="text-primary-100 mt-2">Dernière mise à jour : [DATE]</p>
         </div>
       </div>
@@ -25,7 +25,7 @@ export default function ConditionsUtilisation() {
             </h2>
             <div className="prose prose-lg text-gray-700">
               <p>
-                [VOTRE TEXTE SUR L'ACCEPTATION DES CONDITIONS ICI]
+                [VOTRE TEXTE SUR L&apos;ACCEPTATION DES CONDITIONS ICI]
               </p>
             </div>
           </section>
@@ -49,7 +49,7 @@ export default function ConditionsUtilisation() {
             </h2>
             <div className="prose prose-lg text-gray-700">
               <p>
-                [VOTRE TEXTE SUR L'UTILISATION DU SERVICE ICI]
+                [VOTRE TEXTE SUR L&apos;UTILISATION DU SERVICE ICI]
               </p>
             </div>
           </section>
@@ -57,7 +57,7 @@ export default function ConditionsUtilisation() {
           {/* Obligations de l'utilisateur */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 font-display">
-              Obligations de l'Utilisateur
+              Obligations de l&apos;Utilisateur
             </h2>
             <div className="prose prose-lg text-gray-700">
               <p>
@@ -130,7 +130,7 @@ export default function ConditionsUtilisation() {
           <div className="border-t border-gray-200 pt-8 mt-12">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-gray-600 mb-4 md:mb-0">
-                <p>© 2024 meilleure.agence.be. Tous droits réservés.</p>
+                <p>© 2025 meilleure.agence.be. Tous droits réservés.</p>
               </div>
               <div className="flex space-x-6">
                 <Link href="/" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
@@ -138,6 +138,9 @@ export default function ConditionsUtilisation() {
                 </Link>
                 <Link href="/politique-confidentialite" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
                   Politique de Confidentialité
+                </Link>
+                <Link href="/cookies" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
+                  Cookies
                 </Link>
                 <Link href="/mentions-legales" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
                   Mentions Légales

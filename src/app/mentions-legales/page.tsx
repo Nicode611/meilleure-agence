@@ -103,6 +103,9 @@ export default function MentionsLegales() {
                 <Link href="/politique-confidentialite" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
                   Politique de Confidentialité
                 </Link>
+                <Link href="/cookies" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
+                  Cookies
+                </Link>
                 <Link href="/conditions-utilisation" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
                   Conditions d'Utilisation
                 </Link>

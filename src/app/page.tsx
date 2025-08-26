@@ -4,6 +4,8 @@ import { useState } from 'react';
 import RealEstateForm from '@/components/RealEstateForm';
 import Image from 'next/image';
 import Link from 'next/link';
+import CookieBanner from '@/components/CookieBanner';
+import CookieManager from '@/components/CookieManager';
 
 export default function Home() {
   const [showForm, setShowForm] = useState(false);
@@ -189,9 +191,6 @@ export default function Home() {
                 </button>
               </div>
               
-              <p className="text-lg text-white mt-8 drop-shadow-lg opacity-90">
-                Comparez 6 spécialistes dans votre région
-              </p>
             </div>
           </div>
         </div>
@@ -281,7 +280,7 @@ export default function Home() {
             <div className="col-span-1 md:col-span-2">
               <div className="text-3xl text-primary-600 font-bold mb-4 font-display">meilleure.agence.be</div>
               <p className="text-gray-600 text-[0.7rem] md:max-w-xs leading-relaxed">
-                Recevez jusqu&apos;à 6 devis de professionnels de votre région et comparez pour faire le meilleur choix.
+                Recevez jusqu&apos;à 4 devis de professionnels de votre région et comparez pour faire le meilleur choix.
               </p>
             </div>
 
@@ -307,8 +306,10 @@ export default function Home() {
               <span className="text-gray-500 mt-4 md:mt-0 md:mb-0">© 2025 Hoogstoel - Tous droits réservés</span>
               <div className="flex md:flex-row flex-col justify-center md:gap-6 text-gray-500">
                 <Link href="/politique-confidentialite" className="hover:text-primary-600 transition-colors duration-200">Déclaration de confidentialité</Link>
+                <Link href="/cookies" className="hover:text-primary-600 transition-colors duration-200">Cookies</Link>
                 <Link href="/mentions-legales" className="hover:text-primary-600 transition-colors duration-200">Mentions légales</Link>
                 <Link href="/conditions-utilisation" className="hover:text-primary-600 transition-colors duration-200">Conditions générales</Link>
+                <Link href="/merci" className="hover:text-primary-600 transition-colors duration-200">Confirmation</Link>
               </div>
             </div>
           </div>
@@ -339,6 +340,12 @@ export default function Home() {
           </div>
         </div>
       )}
+      
+      {/* Bannière de consentement aux cookies */}
+      <CookieBanner />
+      
+      {/* Gestionnaire de cookies flottant */}
+      <CookieManager />
     </div>
   );
 }

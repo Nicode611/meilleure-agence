@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface FormData {
   // Code postal
@@ -58,6 +59,7 @@ interface RealEstateFormProps {
 }
 
 export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
+  const router = useRouter();
   const [currentStep, setCurrentStep] = useState(1);
   const [formData, setFormData] = useState<FormData>({
     ...initialFormData,
@@ -145,8 +147,10 @@ ${formData.additionalInfo || 'Aucune information supplémentaire'}
 
       if (response.ok) {
         setSubmitStatus('success');
-        setFormData(initialFormData);
-        setCurrentStep(1);
+        // Rediriger vers la page de remerciement après un court délai
+        setTimeout(() => {
+          router.push('/merci');
+        }, 1500);
       } else {
         setSubmitStatus('error');
       }
@@ -467,7 +471,7 @@ ${formData.additionalInfo || 'Aucune information supplémentaire'}
 
             {submitStatus === 'success' && (
               <div className="p-4 bg-green-100 border border-green-400 text-green-700 rounded-md">
-                🎉 Votre projet a été envoyé avec succès ! Nous vous recontacterons rapidement.
+                🎉 Votre projet a été envoyé avec succès ! Redirection vers la page de confirmation...
               </div>
             )}
 

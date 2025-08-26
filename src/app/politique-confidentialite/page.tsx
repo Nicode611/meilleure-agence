@@ -136,6 +136,9 @@ export default function PolitiqueConfidentialite() {
                 <Link href="/" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
                   Accueil
                 </Link>
+                <Link href="/cookies" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
+                  Cookies
+                </Link>
                 <Link href="/mentions-legales" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
                   Mentions Légales
                 </Link>
