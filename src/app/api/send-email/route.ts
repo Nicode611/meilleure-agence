@@ -3,21 +3,28 @@ import { getResend } from '@/lib/resend';
 
 export async function POST(request: NextRequest) {
   try {
+    console.log('🔍 API Route appelée');
+    console.log('🔑 Clé API disponible:', !!process.env.RESEND_API_KEY);
+    
     const { name, email, message } = await request.json();
+    console.log('📨 Données reçues:', { name, email, messageLength: message?.length });
 
     // Validation des données
     if (!name || !email || !message) {
+      console.log('❌ Validation échouée');
       return NextResponse.json(
         { error: 'Tous les champs sont requis' },
         { status: 400 }
       );
     }
 
+    console.log('✅ Validation réussie, envoi via Resend...');
+    
     // Envoi de l'email via Resend
     const resend = getResend();
     const { data, error } = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['destinataire@example.com'], // À remplacer par l'email de destination
+      from: 'onboarding@resend.dev',
+      to: ['nicode611@gmail.com'], // Email vérifié pour les tests
       subject: `Nouveau message de ${name}`,
       html: `
         <h2>Nouveau message du formulaire de contact</h2>

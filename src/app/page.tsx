@@ -97,11 +97,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="w-full h-[73px] border-b border-gray-200 bg-white">
+      <nav className="w-full h-[73px] border-b border-primary-400 bg-primary-600">
         <div className="h-full flex items-center px-4">
           <div className="w-[311px] h-6">
             {/* Logo placeholder - vous pouvez remplacer par votre logo */}
-            <div className="text-md font-light text-primary-600">meilleure.agence.be</div>
+            <div className="text-md font-light text-white">meilleure.agence.be</div>
           </div>
         </div>
       </nav>
@@ -111,6 +111,9 @@ export default function Home() {
         {/* Header Section with Background */}
         <div className="relative w-full h-[827px] bg-cover bg-center overflow-hidden" 
              style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("/hero2.png")', backgroundPosition: 'bottom' }}>
+          {/* Filtre noir semi-transparent pour améliorer la lisibilité */}
+          <div className="absolute inset-0 bg-[#00000067]"></div>
+          
           {/* Animated background elements - Liquid Glass Style */}
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-20 w-32 h-32 rounded-full liquid-glass animate-float" style={{animationDelay: '0s'}}></div>
@@ -119,7 +122,7 @@ export default function Home() {
             <div className="absolute bottom-20 right-1/4 w-28 h-28 rounded-full liquid-glass animate-float" style={{animationDelay: '4s'}}></div>
           </div>
           
-          <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+          <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center z-10">
             <div className="text-center max-w-4xl px-4 animate-fade-in">
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg font-display leading-tight">
               Choisissez votre meilleure agence immobilière
@@ -129,8 +132,8 @@ export default function Home() {
               </p>
               
               {/* Formulaire de code postal */}
-              <div className="bg-white rounded-2xl p-8 max-w-md mx-auto shadow-large animate-slide-up">
-                <p className="text-black text-center mb-6 font-semibold text-lg">
+              <div className="bg-primary-600 border-1 border-primary-400 rounded-2xl p-8 max-w-md mx-auto shadow-large animate-slide-up">
+                <p className="text-white text-center mb-6 font-semibold text-lg">
                   Entrez votre code postal ici
                 </p>
                 <div className="flex gap-3 justify-center">
@@ -143,7 +146,7 @@ export default function Home() {
                       value={postalCode[index]}
                       onChange={(e) => handlePostalCodeChange(index, e.target.value)}
                       onKeyDown={(e) => handleKeyDown(index, e)}
-                      className={`w-10 h-14 border-b-2 rounded-lg text-center text-lg text-black bg-gray-300 font-mono focus:outline-none focus:bg-gray-100 transition-all duration-200 ${
+                      className={`w-10 h-14 border-b-2 rounded-lg text-center text-lg text-black bg-white font-mono focus:outline-none focus:bg-gray-100 transition-all duration-200 ${
                         postalCode[index] 
                           ? 'border-secondary-500' 
                           : 'border-primary-500'
