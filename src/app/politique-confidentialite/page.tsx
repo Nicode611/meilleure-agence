@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import SimpleFooter from '@/components/SimpleFooter'
 
 export default function PolitiqueConfidentialite() {
   return (
@@ -140,24 +141,7 @@ export default function PolitiqueConfidentialite() {
           </section>
 
           {/* Footer */}
-          <div className="border-t border-gray-200 pt-8 mt-12">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="text-gray-600 mb-4 md:mb-0">
-                <p>© 2024 meilleure.agence.be. Tous droits réservés.</p>
-              </div>
-              <div className="flex space-x-6">
-                <Link href="/" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
-                  Accueil
-                </Link>
-                <Link href="/cookies" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
-                  Cookies
-                </Link>
-                <Link href="/mentions-legales" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
-                  Mentions Légales
-                </Link>
-              </div>
-            </div>
-          </div>
+          <SimpleFooter />
         </div>
       </div>
     </div>

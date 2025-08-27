@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import SimpleFooter from '@/components/SimpleFooter'
 
 export default function Merci() {
   return (
@@ -93,13 +94,13 @@ export default function Merci() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a 
-                href="tel:+32123456789" 
+                href="tel:+320486880450" 
                 className="inline-flex items-center justify-center px-6 py-3 bg-primary-600 text-white font-medium rounded-lg hover:bg-primary-700 transition-colors duration-200"
               >
                 📞 Appeler maintenant
               </a>
               <a 
-                href="mailto:contact@meilleure.agence.be" 
+                href="mailto:contact@xpert-immo.com" 
                 className="inline-flex items-center justify-center px-6 py-3 bg-gray-600 text-white font-medium rounded-lg hover:bg-gray-700 transition-colors duration-200"
               >
                 ✉️ Envoyer un email
@@ -125,24 +126,7 @@ export default function Merci() {
           </div>
 
           {/* Footer */}
-          <div className="border-t border-gray-200 pt-8 mt-12">
-            <div className="flex flex-col md:flex-row justify-between items-center">
-              <div className="text-gray-600 mb-4 md:mb-0">
-                <p>© 2025 meilleure.agence.be. Tous droits réservés.</p>
-              </div>
-              <div className="flex space-x-6">
-                <Link href="/politique-confidentialite" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
-                  Politique de Confidentialité
-                </Link>
-                <Link href="/cookies" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
-                  Cookies
-                </Link>
-                <Link href="/mentions-legales" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
-                  Mentions Légales
-                </Link>
-              </div>
-            </div>
-          </div>
+          <SimpleFooter />
         </div>
       </div>
     </div>
