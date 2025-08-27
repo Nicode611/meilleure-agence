@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { formConfig, Question, StepQuestions } from '@/config/formQuestions';
+import { formConfig, Question } from '@/config/formQuestions';
 
 interface FormData {
   [key: string]: string | string[];
@@ -125,7 +125,7 @@ export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
         <div class="content">`;
 
     // Générer le contenu dynamiquement basé sur la configuration
-    formConfig.steps.forEach((step, stepIndex) => {
+    formConfig.steps.forEach((step) => {
       if (step.questions.length > 0) {
         emailContent += `
             <div class="section">
