@@ -1,16 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
-      },
-    },
-  },
   images: {
     remotePatterns: [
       {
@@ -19,6 +9,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Configuration pour Vercel
+  output: 'standalone',
+  poweredByHeader: false,
 };
 
 export default nextConfig;
