@@ -127,9 +127,7 @@ export default function Home() {
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg font-display leading-tight">
               Choisissez votre meilleure agence immobilière
               </h1>
-              <p className="text-lg text-white mb-8 drop-shadow-lg max-w-2xl mx-auto opacity-90">
-              Recevez 4 devis d&apos;agence immobilière de votre région avant de vous décider et économisez jusqu&apos;à 50%
-              </p>
+              
               
               {/* Formulaire de code postal */}
               <div className="bg-primary-600 border-1 border-primary-400 rounded-2xl p-8 max-w-md mx-auto shadow-large animate-slide-up">
@@ -193,6 +191,10 @@ export default function Home() {
                   {isPostalCodeValid ? 'Continuer' : 'Entrez votre code postal'}
                 </button>
               </div>
+
+              <p className="text-lg text-white mt-8 drop-shadow-lg max-w-2xl mx-auto opacity-90">
+              Recevez 4 devis d&apos;agence immobilière de votre région avant de vous décider et économisez jusqu&apos;à 50%
+              </p>
               
             </div>
           </div>
