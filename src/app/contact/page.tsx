@@ -1,82 +1,10 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: ''
-  });
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-  const handleInputChange = (field: string, value: string) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: value
-    }));
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
-
-    try {
-      const response = await fetch('/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: `${formData.firstName} ${formData.lastName}`,
-          email: formData.email,
-          message: `
-NOUVELLE DEMANDE DE CONTACT
-
-=== INFORMATIONS CONTACT ===
-Nom: ${formData.firstName} ${formData.lastName}
-Email: ${formData.email}
-Téléphone: ${formData.phone || 'Non renseigné'}
-
-=== SUJET ===
-${formData.subject}
-
-=== MESSAGE ===
-${formData.message}
-
-=== TYPE DE DEMANDE ===
-Demande de contact générale
-          `.trim()
-        }),
-      });
-
-      if (response.ok) {
-        setSubmitStatus('success');
-        setFormData({
-          firstName: '',
-          lastName: '',
-          email: '',
-          phone: '',
-          subject: '',
-          message: ''
-        });
-      } else {
-        setSubmitStatus('error');
-      }
-    } catch (error) {
-      console.error('Erreur:', error);
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
@@ -184,15 +112,33 @@ Demande de contact générale
               </div>
             </div>
 
-            {/* Carte */}
+            {/* Carte Google Maps */}
             <div className="bg-white rounded-2xl shadow-soft p-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6 font-display">🗺️ Notre Localisation</h2>
-              <div className="bg-gray-100 rounded-xl h-64 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <span className="text-4xl mb-2 block">📍</span>
-                  <p className="text-sm">Carte interactive à venir</p>
-                  <p className="text-xs mt-1">Avenue Molière 491, 1050 Ixelles</p>
-                </div>
+              <div className="rounded-xl overflow-hidden h-80">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2520.7998031834277!2d4.362273976802542!3d50.81634777166439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4f00a538b27%3A0xe3db1c4368e3f6ef!2sAv.%20Moli%C3%A8re%20491%2C%201050%20Ixelles%2C%20Belgique!5e0!3m2!1sfr!2s!4v1756300355795!5m2!1sfr!2s"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Localisation IMMO-9 - Avenue Molière 491, 1050 Ixelles"
+                  className="w-full h-full"
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <a
+                  href="https://maps.google.com/?q=Avenue+Molière+491,+1050+Ixelles,+Belgique"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 text-primary-600 hover:text-primary-700 transition-colors duration-200 font-medium"
+                >
+                  <span>📍</span>
+                  <span>Ouvrir dans Google Maps</span>
+                  <span>↗</span>
+                </a>
               </div>
             </div>
           </div>
@@ -206,7 +152,7 @@ Demande de contact générale
         <div className="max-w-4xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-600 mb-4 md:mb-0">
-              <p>© 2024 meilleure.agence.be. Tous droits réservés.</p>
+              <p>© 2025 meilleure.agence.be. Tous droits réservés.</p>
             </div>
             <div className="flex space-x-6">
               <Link href="/" className="text-primary-600 hover:text-primary-700 transition-colors duration-200">
