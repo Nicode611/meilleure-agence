@@ -212,6 +212,21 @@ export default function Home() {
               </p>
             </div>
             
+            {/* Lien vers la page Agence */}
+            <div className="text-center mb-12">
+              <div className="inline-block p-4 bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl border border-primary-100">
+                <p className="text-lg text-gray-700 mb-3">
+                  🏢 <strong>Vous êtes agent immobilier ?</strong>
+                </p>
+                <a 
+                  href="/agence" 
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
+                >
+                  Devenir Partenaire →
+                </a>
+              </div>
+            </div>
+            
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Step 1 */}
               <div className="text-center group">

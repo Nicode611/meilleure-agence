@@ -23,7 +23,7 @@ export async function POST(request: NextRequest) {
     // Envoi de l'email via Resend
     const resend = getResend();
     const { data, error } = await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'contact@nicolas-guigay.com',
       to: ['nicode611@gmail.com'], // Email vérifié pour les tests
       subject: `Nouveau message de ${name}`,
       html: `
