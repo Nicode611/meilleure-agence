@@ -98,10 +98,21 @@ export default function Home() {
     <div className="min-h-screen bg-white">
       {/* Navigation */}
       <nav className="w-full h-[73px] border-b border-primary-400 bg-primary-600">
-        <div className="h-full flex items-center px-4">
+        <div className="h-full flex items-center justify-between px-4">
           <div className="w-[311px] h-6">
             {/* Logo placeholder - vous pouvez remplacer par votre logo */}
-            <div className="text-md font-light text-white">meilleure.agence.be</div>
+            <div className="text-md font-light text-white">Meilleure-agence.be</div>
+          </div>
+          
+          {/* Navigation links */}
+          <div className="flex items-center space-x-6">
+            <a 
+              href="/agence" 
+              className="inline-flex items-center px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-300 font-medium border border-white/20 hover:border-white/30 hover:scale-105 transform"
+            >
+              <span className="mr-2">🏢</span>
+              Agence
+            </a>
           </div>
         </div>
       </nav>
@@ -124,9 +135,12 @@ export default function Home() {
           
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center z-10">
             <div className="text-center max-w-4xl px-4 animate-fade-in">
-              <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg font-display leading-tight">
-              Choisissez votre meilleure agence immobilière
-              </h1>
+              <div className="mb-6">
+                <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg font-display leading-tight">
+                Vous vendez votre maison ? 
+                </h1>
+                <p className="text-white text-lg font-light drop-shadow-lg">Choisissez la meilleure agence immobilière</p>
+              </div>
               
               
               {/* Formulaire de code postal */}
@@ -212,20 +226,7 @@ export default function Home() {
               </p>
             </div>
             
-            {/* Lien vers la page Agence */}
-            <div className="text-center mb-12">
-              <div className="inline-block p-4 bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl border border-primary-100">
-                <p className="text-lg text-gray-700 mb-3">
-                  🏢 <strong>Vous êtes agent immobilier ?</strong>
-                </p>
-                <a 
-                  href="/agence" 
-                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
-                >
-                  Devenir Partenaire →
-                </a>
-              </div>
-            </div>
+            
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Step 1 */}
@@ -286,6 +287,21 @@ export default function Home() {
                 <p className="text-gray-600 leading-relaxed">
                 Sélectionnez la meilleure offre et réalisez des économies jusqu&apos;à 50 %.
                 </p>
+              </div>
+            </div>
+
+            {/* Lien vers la page Agence */}
+            <div className="text-center mt-12">
+              <div className="inline-block p-4 bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl border border-primary-100">
+                <p className="text-lg text-gray-700 mb-3">
+                  🏢 <strong>Vous êtes agent immobilier ?</strong>
+                </p>
+                <a 
+                  href="/agence" 
+                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
+                >
+                  Devenir Partenaire →
+                </a>
               </div>
             </div>
           </div>

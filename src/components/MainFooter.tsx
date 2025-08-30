@@ -7,7 +7,7 @@ export default function MainFooter() {
         <div className="flex flex-col-reverse md:grid md:grid-cols-4 gap-8 px-4 md:px-16">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
-            <div className="text-3xl text-primary-600 font-bold mb-4 font-display">meilleure.agence.be</div>
+            <div className="text-3xl text-primary-600 font-bold mb-4 font-display">Meilleure-agence.be</div>
             <p className="text-gray-600 text-[0.7rem] md:max-w-xs leading-relaxed">
               Recevez jusqu&apos;à 4 devis de professionnels de votre région et comparez pour faire le meilleur choix.
             </p>
@@ -18,7 +18,7 @@ export default function MainFooter() {
             <h4 className="font-semibold text-gray-900 mb-4 text-lg">À propos de nous</h4>
             <ul className="space-y-2">
               <li><a href="/contact" className="text-gray-600 hover:text-primary-600 transition-colors duration-200">Contact</a></li>
-              <li><a href="/agence" className="text-gray-600 hover:text-primary-600 transition-colors duration-200">🏢 Devenir Partenaire</a></li>
+              <li><a href="/agence" className="text-gray-600 hover:text-primary-600 transition-colors duration-200">Devenir Partenaire</a></li>
             </ul>
           </div>
 
