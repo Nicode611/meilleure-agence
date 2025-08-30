@@ -18,29 +18,61 @@
  */
 
 // ============================================================================
-// ÉTAPE 1 : TYPE DE PROJET
+// ÉTAPE 1 : VENTE IMMOBILIÈRE
 // ============================================================================
 export const step1Questions: StepQuestions = {
-  title: "Type de projet",
-  subtitle: "Décrivez votre projet immobilier",
+  title: "Votre vente immobilière",
+  subtitle: "Décrivez-nous votre agence idéale",
   questions: [
     {
-      id: "projectType",
-      label: "Quel est votre projet immobilier ?",
+      id: "city",
+      label: "Ville ou secteur",
+      type: "text",
+      required: true,
+      placeholder: "Ex: Bruxelles, Charleroi, Liège..."
+    },
+    {
+      id: "propertyValue",
+      label: "Valeur du bien à vendre",
       type: "select",
       required: true,
-      placeholder: "Sélectionnez votre projet",
+      placeholder: "Sélectionnez la valeur",
       options: [
-        { value: "achat-residence-principale", text: "Achat résidence principale" },
-        { value: "achat-residence-secondaire", text: "Achat résidence secondaire" },
-        { value: "investissement-locatif", text: "Investissement locatif" },
-        { value: "construction-neuve", text: "Construction neuve" },
-        { value: "renovation", text: "Rénovation" }
+        { value: "moins-100k", text: "Moins de 100k€" },
+        { value: "100k-200k", text: "100k€ - 200k€" },
+        { value: "200k-300k", text: "200k€ - 300k€" },
+        { value: "300k-500k", text: "300k€ - 500k€" },
+        { value: "500k-1m", text: "500k€ - 1M€" },
+        { value: "plus-1m", text: "Plus de 1M€" }
       ]
     },
     {
+      id: "timeline",
+      label: "Délai de votre projet",
+      type: "select",
+      required: true,
+      placeholder: "Sélectionnez un délai",
+      options: [
+        { value: "immediat", text: "Immédiatement" },
+        { value: "3-mois", text: "Dans les 3 mois" },
+        { value: "6-mois", text: "Dans les 6 mois" },
+        { value: "1-an", text: "Dans l'année" },
+        { value: "plus-1-an", text: "Dans plus d'un an" }
+      ]
+    }
+  ]
+};
+
+// ============================================================================
+// ÉTAPE 2 : DÉTAILS DU BIEN À VENDRE
+// ============================================================================
+export const step2Questions: StepQuestions = {
+  title: "Détails du bien à vendre",
+  subtitle: "Précisez les caractéristiques de votre bien",
+  questions: [
+    {
       id: "propertyType",
-      label: "Type de bien recherché",
+      label: "Type de bien",
       type: "select",
       required: true,
       placeholder: "Sélectionnez le type de bien",
@@ -51,53 +83,10 @@ export const step1Questions: StepQuestions = {
         { value: "local-commercial", text: "Local commercial" },
         { value: "immeuble", text: "Immeuble" }
       ]
-    }
-  ]
-};
-
-// ============================================================================
-// ÉTAPE 2 : LOCALISATION ET BUDGET
-// ============================================================================
-export const step2Questions: StepQuestions = {
-  title: "Localisation et budget",
-  subtitle: "Définissez votre zone de recherche et votre budget",
-  questions: [
-    
-    {
-      id: "city",
-      label: "Ville ou secteur précis",
-      type: "text",
-      required: true,
-      placeholder: "Ex: Bruxelles, Charleroi, Liège..."
     },
     {
-      id: "budget",
-      label: "Budget envisagé",
-      type: "select",
-      required: true,
-      placeholder: "Sélectionnez votre budget",
-      options: [
-        { value: "moins-100k", text: "Moins de 100k€" },
-        { value: "100k-200k", text: "100k€ - 200k€" },
-        { value: "200k-300k", text: "200k€ - 300k€" },
-        { value: "300k-500k", text: "300k€ - 500k€" },
-        { value: "500k-1m", text: "500k€ - 1M€" },
-        { value: "plus-1m", text: "Plus de 1M€" }
-      ]
-    }
-  ]
-};
-
-// ============================================================================
-// ÉTAPE 3 : DÉTAILS DU BIEN
-// ============================================================================
-export const step3Questions: StepQuestions = {
-  title: "Détails du bien",
-  subtitle: "Précisez vos critères de recherche",
-  questions: [
-    {
       id: "surface",
-      label: "Surface souhaitée (m²)",
+      label: "Surface (m²)",
       type: "select",
       required: true,
       placeholder: "Sélectionnez la surface",
@@ -111,23 +100,8 @@ export const step3Questions: StepQuestions = {
       ]
     },
     {
-      id: "rooms",
-      label: "Nombre de pièces",
-      type: "select",
-      required: true,
-      placeholder: "Sélectionnez le nombre de pièces",
-      options: [
-        { value: "1", text: "1 pièce" },
-        { value: "2", text: "2 pièces" },
-        { value: "3", text: "3 pièces" },
-        { value: "4", text: "4 pièces" },
-        { value: "5", text: "5 pièces" },
-        { value: "plus-5", text: "Plus de 5 pièces" }
-      ]
-    },
-    {
       id: "features",
-      label: "Caractéristiques souhaitées (plusieurs choix possibles)",
+      label: "Caractéristiques (plusieurs choix possibles)",
       type: "checkbox",
       required: false,
       options: [
@@ -143,59 +117,9 @@ export const step3Questions: StepQuestions = {
 };
 
 // ============================================================================
-// ÉTAPE 4 : TIMELINE ET FINANCEMENT
+// ÉTAPE 3 : COORDONNÉES
 // ============================================================================
-export const step4Questions: StepQuestions = {
-  title: "Timeline et financement",
-  subtitle: "Planifiez votre projet immobilier",
-  questions: [
-    {
-      id: "timeline",
-      label: "Dans combien de temps souhaitez-vous concrétiser ?",
-      type: "select",
-      required: true,
-      placeholder: "Sélectionnez une timeline",
-      options: [
-        { value: "immediat", text: "Immédiatement" },
-        { value: "3-mois", text: "Dans les 3 mois" },
-        { value: "6-mois", text: "Dans les 6 mois" },
-        { value: "1-an", text: "Dans l'année" },
-        { value: "plus-1-an", text: "Dans plus d'un an" }
-      ]
-    },
-    {
-      id: "financing",
-      label: "Mode de financement",
-      type: "select",
-      required: true,
-      placeholder: "Sélectionnez le financement",
-      options: [
-        { value: "credit-immobilier", text: "Crédit immobilier" },
-        { value: "comptant", text: "Comptant" },
-        { value: "mixte", text: "Mixte (crédit + apport)" },
-        { value: "non-defini", text: "Pas encore défini" }
-      ]
-    },
-    {
-      id: "currentSituation",
-      label: "Votre situation actuelle",
-      type: "select",
-      required: true,
-      placeholder: "Sélectionnez votre situation",
-      options: [
-        { value: "locataire", text: "Locataire" },
-        { value: "proprietaire", text: "Propriétaire" },
-        { value: "heberge", text: "Hébergé" },
-        { value: "premier-achat", text: "Premier achat" }
-      ]
-    }
-  ]
-};
-
-// ============================================================================
-// ÉTAPE 5 : COORDONNÉES
-// ============================================================================
-export const step5Questions: StepQuestions = {
+export const step3Questions: StepQuestions = {
   title: "Vos coordonnées",
   subtitle: "Finalisez votre demande",
   questions: [
@@ -239,13 +163,11 @@ export const step5Questions: StepQuestions = {
 // CONFIGURATION GÉNÉRALE DU FORMULAIRE
 // ============================================================================
 export const formConfig: FormConfig = {
-  totalSteps: 5,
+  totalSteps: 3,
   steps: [
     step1Questions,
     step2Questions,
-    step3Questions,
-    step4Questions,
-    step5Questions
+    step3Questions
   ]
 };
 

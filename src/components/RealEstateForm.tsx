@@ -118,8 +118,8 @@ export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
 <body>
     <div class="container">
         <div class="header">
-            <h1>🏠 Nouveau Projet Immobilier</h1>
-            <p class="subtitle">Demande de devis reçue</p>
+            <h1>🏠 Demande de Vente Immobilière</h1>
+            <p class="subtitle">Nouvelle demande reçue</p>
         </div>
         
         <div class="content">`;

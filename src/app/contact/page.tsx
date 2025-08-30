@@ -38,7 +38,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Adresse</h3>
                     <p className="text-gray-600 leading-relaxed">
-                      IMMO-9 / Xpert IMMO SRL<br />
+                      Xpert IMMO SRL<br />
                       Avenue Molière 491 – bte12<br />
                       1050 IXELLES<br />
                       BELGIQUE
@@ -98,10 +98,6 @@ export default function Contact() {
               <h2 className="text-2xl font-bold text-gray-900 mb-6 font-display">⚖️ Informations Légales</h2>
               
               <div className="space-y-4 text-sm text-gray-600">
-                <div className="flex justify-between">
-                  <span className="font-medium">Agrément professionnel immobilier :</span>
-                  <span>IPI 501.883</span>
-                </div>
                 <div className="flex justify-between">
                   <span className="font-medium">Numéro d&apos;entreprise :</span>
                   <span>BE 0563.951.763</span>

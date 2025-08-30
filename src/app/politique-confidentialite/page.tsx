@@ -25,7 +25,7 @@ export default function PolitiqueConfidentialite() {
               Introduction
             </h2>
             <div className="prose prose-lg text-gray-700">
-              <p>Vos données à caractère personnel sont traitées par et sous la responsabilité de <strong>Xpert IMMO SRL</strong>, dont le siège social est établi à 1050 Bruxelles (TVA/BCE : BE 0563.951.763), ci-après dénommée « IMMO‑9 » ou « Nous ».</p>
+              <p>Vos données à caractère personnel sont traitées par et sous la responsabilité de <strong>Xpert IMMO SRL</strong>, dont le siège social est établi à 1050 Bruxelles (TVA/BCE : BE 0563.951.763), ci-après dénommée « Meilleure-agence.be » ou « Nous ».</p>
               <p>Pour toute question concernant la présente Charte de Protection de la Vie Privée, vous pouvez nous écrire à l’adresse ci‑dessus ou par e‑mail à <a href="mailto:contact@xpert-immo.com">contact@xpert-immo.com</a>.</p>
             </div>
           </section>
@@ -85,7 +85,7 @@ export default function PolitiqueConfidentialite() {
               Cookies et Technologies Similaires
             </h2>
             <div className="prose prose-lg text-gray-700 space-y-4">
-              <p>Lors de votre navigation sur <a href="http://www.immo-9.be" target="_blank" rel="noopener noreferrer">www.immo-9.be</a>, des cookies peuvent être installés sur votre terminal afin de :</p>
+              <p>Lors de votre navigation sur <a href="http://www.meilleure-agence.be" target="_blank" rel="noopener noreferrer">www.meilleure-agence.be</a>, des cookies peuvent être installés sur votre terminal afin de :</p>
               <ul>
                 <li>assurer le bon fonctionnement du site (cookies techniques de session) ;</li>
                 <li>adapter la présentation du site à vos préférences ;</li>
@@ -121,7 +121,8 @@ export default function PolitiqueConfidentialite() {
             </h2>
             <div className="prose prose-lg text-gray-700">
               <p>
-                IMMO‑9 Bruxelles<br/>
+                Meilleure-agence.be<br/>
+                Xpert IMMO<br/>
                 Avenue Molière 491 – bte12<br/>
                 1050 Ixelles – Belgique<br/>
                 Tél : 0486 880 450<br/>
