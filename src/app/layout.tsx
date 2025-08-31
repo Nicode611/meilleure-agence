@@ -5,23 +5,23 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Hoogstoel - Votre Projet Immobilier',
-  description: 'Trouvez le spécialiste de votre région et comparez les devis avant de vous décider. Économisez jusqu\'à 40% sur votre projet immobilier.',
+  title: 'Meilleure Agence',
+  description: 'Choisissez la meilleure agence immobilière',
   keywords: 'immobilier, projet immobilier, devis, spécialiste, région, économies',
   authors: [{ name: 'Hoogstoel' }],
-  metadataBase: new URL('https://hoogstoel.com'),
+  metadataBase: new URL('https://www.meilleure-agence.be/'),
   openGraph: {
-    title: 'Hoogstoel - Votre Projet Immobilier',
-    description: 'Trouvez le spécialiste de votre région et comparez les devis avant de vous décider.',
+    title: 'Meilleure Agence',
+    description: 'Choisissez la meilleure agence immobilière',
     type: 'website',
     locale: 'fr_FR',
-    url: 'https://hoogstoel.com',
-    siteName: 'Hoogstoel',
+    url: 'https://www.meilleure-agence.be/',
+    siteName: 'Meilleure Agence',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Hoogstoel - Votre Projet Immobilier',
-    description: 'Trouvez le spécialiste de votre région et comparez les devis avant de vous décider.',
+    title: 'Meilleure Agence',
+    description: 'Choisissez la meilleure agence immobilière',
   },
 }
 

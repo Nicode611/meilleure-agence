@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function MainFooter() {
   return (
@@ -7,7 +8,15 @@ export default function MainFooter() {
         <div className="flex flex-col-reverse md:grid md:grid-cols-4 gap-8 px-4 md:px-16">
           {/* Logo and Description */}
           <div className="col-span-1 md:col-span-2">
-            <div className="text-3xl text-primary-600 font-bold mb-4 font-display">Meilleure-agence.be</div>
+            <div className="flex items-center gap-2 mb-4">
+              <Link href="/" className="flex items-center gap-2">
+                <Image src="/logo-agence.svg" alt="Logo" width={50} height={50} />
+                <div className="flex flex-col">
+                  <p className="text-md font-bold"><strong className="text-[#552A85]">Meilleure</strong> <strong className="text-[#A74FCB]">Agence</strong></p>
+                  <p className="text-[0.5rem] font-light text-black">VOTRE COMPARATEUR D’AGENCES IMMOBILIERES</p>
+                </div>
+              </Link>
+            </div>
             <p className="text-gray-600 text-[0.7rem] md:max-w-xs leading-relaxed">
               Recevez jusqu&apos;à 4 devis de professionnels de votre région et comparez pour faire le meilleur choix.
             </p>

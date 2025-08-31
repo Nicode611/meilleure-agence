@@ -125,7 +125,7 @@ export default function ContactForm({
               value={formData.phone}
               onChange={handleChange}
               className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all duration-300 text-base bg-white hover:border-primary-300 text-gray-800"
-              placeholder="06 12 34 56 78"
+              placeholder="+32 475 12 34 56"
             />
           </div>
         )}

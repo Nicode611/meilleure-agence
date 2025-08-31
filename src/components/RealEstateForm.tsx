@@ -377,7 +377,7 @@ export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
         <button
           onClick={prevStep}
           disabled={currentStep === 1}
-          className="px-6 py-3 border-2 border-gray-200 text-gray-600 rounded-xl hover:bg-gray-50 hover:border-primary-300 hover:text-primary-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium text-base shadow-soft hover:shadow-medium"
+          className="px-6 py-3 border-2 border-gray-200 text-gray-600 rounded-xl hover:cursor-pointer hover:bg-gray-50 hover:border-primary-300 hover:text-primary-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium text-base shadow-soft hover:shadow-medium"
         >
           ← Précédent
         </button>
@@ -386,7 +386,7 @@ export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
           <button
             onClick={nextStep}
             disabled={!isStepValid()}
-            className="px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
+            className="px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white hover:cursor-pointer rounded-xl hover:from-primary-600 hover:to-primary-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
           >
             Suivant →
           </button>
@@ -394,7 +394,7 @@ export default function RealEstateForm({ postalCode }: RealEstateFormProps) {
           <button
             onClick={handleSubmit}
             disabled={!isStepValid() || isSubmitting}
-            className="px-6 py-3 bg-gradient-to-r from-secondary-500 to-secondary-600 text-white rounded-xl hover:from-secondary-600 hover:to-secondary-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
+            className="px-6 py-3 bg-gradient-to-r from-secondary-500 to-secondary-600 text-white hover:cursor-pointer rounded-xl hover:from-secondary-600 hover:to-secondary-700 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
           >
             {isSubmitting ? 'Envoi en cours...' : '🚀 Envoyer mon projet'}
           </button>

@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import RealEstateForm from '@/components/RealEstateForm';
 import Image from 'next/image';
+import Link from 'next/link';
 import CookieBanner from '@/components/CookieBanner';
 import CookieManager from '@/components/CookieManager';
 import MainFooter from '@/components/MainFooter';
@@ -99,9 +100,16 @@ export default function Home() {
       {/* Navigation */}
       <nav className="w-full h-[73px] border-b border-primary-400 bg-primary-600">
         <div className="h-full flex items-center justify-between px-4">
-          <div className="w-[311px] h-6">
+          <div className="w-[311px] h-6 flex items-center gap-2">
             {/* Logo placeholder - vous pouvez remplacer par votre logo */}
-            <div className="text-md font-light text-white">Meilleure-agence.be</div>
+            <div>
+              <Image src="/logo-agence.svg" alt="Logo" width={50} height={50} />
+            </div>
+            <Link href="/">
+              <p className="text-md"><strong className="text-white">Meilleure</strong> <strong className="text-white">Agence</strong></p>
+              <p className="text-[0.5rem] font-light text-white">VOTRE COMPARATEUR D’AGENCES IMMOBILIERES</p>
+            </Link>
+            
           </div>
           
           {/* Navigation links */}
@@ -110,7 +118,6 @@ export default function Home() {
               href="/agence" 
               className="inline-flex items-center px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-300 font-medium border border-white/20 hover:border-white/30 hover:scale-105 transform"
             >
-              <span className="mr-2">🏢</span>
               Agence
             </a>
           </div>
@@ -126,16 +133,16 @@ export default function Home() {
           <div className="absolute inset-0 bg-[#00000067]"></div>
           
           {/* Animated background elements - Liquid Glass Style */}
-          <div className="absolute inset-0 overflow-hidden">
+          {/* <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-20 left-20 w-32 h-32 rounded-full liquid-glass animate-float" style={{animationDelay: '0s'}}></div>
             <div className="absolute bottom-10 left-3/4 w-20 h-20 rounded-full liquid-glass animate-float" style={{animationDelay: '3s'}}></div>
             <div className="absolute top-1/2 left-1/3 w-16 h-16 rounded-full liquid-glass animate-float" style={{animationDelay: '2s'}}></div>
             <div className="absolute bottom-20 right-1/4 w-28 h-28 rounded-full liquid-glass animate-float" style={{animationDelay: '4s'}}></div>
-          </div>
+          </div> */}
           
           <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center z-10">
             <div className="text-center max-w-4xl px-4 animate-fade-in">
-              <div className="mb-6">
+              <div className="mb-14">
                 <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg font-display leading-tight">
                 Vous vendez votre maison ? 
                 </h1>
@@ -322,7 +329,7 @@ export default function Home() {
               </div>
               <button
                 onClick={() => setShowForm(false)}
-                className="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 hover:text-gray-800 transition-all duration-200 group"
+                className="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 flex items-center justify-center text-gray-600 hover:text-gray-800 transition-all duration-200 group hover:cursor-pointer"
               >
                 <svg className="w-6 h-6 group-hover:rotate-90 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

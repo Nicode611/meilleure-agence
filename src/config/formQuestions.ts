@@ -146,7 +146,7 @@ export const step3Questions: StepQuestions = {
       label: "Téléphone",
       type: "tel",
       required: false,
-      placeholder: "06 12 34 56 78"
+      placeholder: "+32 475 12 34 56"
     },
     {
       id: "additionalInfo",
