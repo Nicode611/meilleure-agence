@@ -115,10 +115,10 @@ export default function Home() {
           {/* Navigation links */}
           <div className="flex items-center space-x-6">
             <a 
-              href="/agence" 
+              href="/contact" 
               className="inline-flex items-center px-4 py-2 bg-white/10 hover:bg-white/20 text-white rounded-lg transition-all duration-300 font-medium border border-white/20 hover:border-white/30 hover:scale-105 transform"
             >
-              Agence
+              Agences
             </a>
           </div>
         </div>
@@ -297,20 +297,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Lien vers la page Agence */}
-            <div className="text-center mt-12">
-              <div className="inline-block p-4 bg-gradient-to-r from-primary-50 to-secondary-50 rounded-2xl border border-primary-100">
-                <p className="text-lg text-gray-700 mb-3">
-                  🏢 <strong>Vous êtes agent immobilier ?</strong>
-                </p>
-                <a 
-                  href="/agence" 
-                  className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-500 to-primary-600 text-white rounded-xl hover:from-primary-600 hover:to-primary-700 transition-all duration-300 font-medium text-base shadow-medium hover:shadow-large transform hover:-translate-y-1"
-                >
-                  Devenir Partenaire →
-                </a>
-              </div>
-            </div>
+            
           </div>
         </div>
       </main>

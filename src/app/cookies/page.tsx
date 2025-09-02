@@ -11,7 +11,6 @@ export default function Cookies() {
             ← Retour à l&apos;accueil
           </Link>
           <h1 className="text-4xl font-bold font-display">Politique des Cookies</h1>
-          <p className="text-primary-100 mt-2">Dernière mise à jour : Aout 2025</p>
         </div>
       </div>
 

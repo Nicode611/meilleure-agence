@@ -11,7 +11,6 @@ export default function MentionsLegales() {
             ← Retour à l&apos;accueil
           </Link>
           <h1 className="text-4xl font-bold font-display">Mentions Légales</h1>
-          <p className="text-primary-100 mt-2">Dernière mise à jour : 26 août 2025</p>
         </div>
       </div>
 
@@ -25,7 +24,6 @@ export default function MentionsLegales() {
               <p><strong>Xpert IMMO SRL</strong></p>
               <p>Avenue Molière 491 – bte12<br/>1050 IXELLES<br/>BELGIQUE</p>
               <ul>
-                <li>Agrément professionnel immobilier : IPI 501.883</li>
                 <li>Numéro d&apos;entreprise : BE 0563.951.763</li>
                 <li>Assurance professionnelle : AXA</li>
               </ul>
@@ -102,18 +100,6 @@ export default function MentionsLegales() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4 font-display">Sécurité</h2>
             <div className="prose prose-lg text-gray-700">
               <p>Conformément à la loi, <strong>Meilleure-agence.be</strong> met en œuvre toutes les précautions de sécurité nécessaires au respect de la confidentialité des données personnelles.</p>
-            </div>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4 font-display">Nous contacter</h2>
-            <div className="prose prose-lg text-gray-700">
-              <p>
-              IMMO-9 BRUXELLES<br/>
-                Avenue Molière 491 – bte12L<br/>
-                1050 IXELLES – BELGIQUE<br/>
-                Tél&nbsp;: 0486 880 450
-              </p>
             </div>
           </section>
 
