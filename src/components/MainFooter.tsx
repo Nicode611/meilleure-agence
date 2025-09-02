@@ -27,7 +27,6 @@ export default function MainFooter() {
             <h4 className="font-semibold text-gray-900 mb-4 text-lg">À propos de nous</h4>
             <ul className="space-y-2">
               <li><a href="/contact" className="text-gray-600 hover:text-primary-600 transition-colors duration-200">Contact</a></li>
-              <li><a href="/agence" className="text-gray-600 hover:text-primary-600 transition-colors duration-200">Devenir Partenaire</a></li>
             </ul>
           </div>
 
