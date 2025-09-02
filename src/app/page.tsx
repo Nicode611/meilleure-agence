@@ -98,7 +98,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="w-full h-[73px] border-b border-primary-400 bg-primary-600">
+      <nav className="w-full  h-[73px] border-b border-primary-400 bg-primary-600">
         <div className="h-full flex items-center justify-between px-4">
           <div className="w-[311px] h-6 flex items-center gap-2">
             {/* Logo placeholder - vous pouvez remplacer par votre logo */}
