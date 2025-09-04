@@ -22,6 +22,7 @@ Application web moderne et professionnelle pour **Hoogstoel**, entreprise immobi
 - Node.js 18+ 
 - npm ou yarn
 - Clé API Resend
+- ID de mesure Google Analytics (optionnel)
 
 ### **Installation**
 ```bash
@@ -33,7 +34,8 @@ npm install
 
 # Configurer l'environnement
 cp local.env .env.local
-# Éditer .env.local et ajouter votre clé API Resend
+# Éditer .env.local et ajouter :
+# - Votre clé API Resend
 
 # Démarrer en développement
 npm run dev
@@ -72,7 +74,8 @@ Le formulaire est entièrement configurable via `src/config/formQuestions.ts`. M
 L'application est configurée pour un déploiement facile sur **Vercel** :
 1. Connectez votre compte GitHub
 2. Importez le projet
-3. Ajoutez la variable `RESEND_API_KEY`
+3. Ajoutez les variables d'environnement :
+   - `RESEND_API_KEY` (obligatoire)
 4. Déployez !
 
 ## 📚 **Documentation**
