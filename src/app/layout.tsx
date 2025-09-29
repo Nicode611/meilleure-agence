@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Analytics } from "@vercel/analytics/next"
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { GoogleAnalytics } from '@/components'
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="fr">
       <body className={inter.className}>
         <GoogleAnalytics measurementId="AW-17526692930" />
+        <Analytics />
         {children}
       </body>
     </html>
