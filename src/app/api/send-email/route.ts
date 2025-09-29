@@ -24,7 +24,7 @@ export async function POST(request: NextRequest) {
     const resend = getResend();
     const { data, error } = await resend.emails.send({
       from: 'contact@meilleure-agence.be',
-      to: ['c.hoogstoel@gmail.com'], // Email vérifié pour les tests
+      to: ['info@immo-9.be'], // Email vérifié pour les tests
       subject: `Nouveau message de ${name}`,
       html: `
         <h2>Nouveau message du formulaire de contact</h2>
