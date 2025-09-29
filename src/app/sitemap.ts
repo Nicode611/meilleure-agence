@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
 import { getAllCommunes } from '@/lib/communes'
 
-// Régénérer le sitemap toutes les 24h
-export const revalidate = 60 * 60 * 24
+// Régénérer le sitemap toutes les 24h (valeur littérale requise par Vercel)
+export const revalidate = 86400
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://meilleure-agence.be'
