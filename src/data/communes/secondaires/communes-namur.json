@@ -1,0 +1,576 @@
+{
+  "communes": [
+    {
+      "nom": "Andenne",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Andenne ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Andenne avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Andenne, comparateur agence immobilière Andenne, devis agence immobilière Andenne, estimation immobilière Andenne, agent immobilier Andenne",
+        "canonical": "https://meilleure-agence.be/andenne"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Anhée",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Anhée ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Anhée avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Anhée, comparateur agence immobilière Anhée, devis agence immobilière Anhée, estimation immobilière Anhée, agent immobilier Anhée",
+        "canonical": "https://meilleure-agence.be/anhee"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Beauraing",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Beauraing ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Beauraing avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Beauraing, comparateur agence immobilière Beauraing, devis agence immobilière Beauraing, estimation immobilière Beauraing, agent immobilier Beauraing",
+        "canonical": "https://meilleure-agence.be/beauraing"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Beez",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Beez ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Beez avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Beez, comparateur agence immobilière Beez, devis agence immobilière Beez, estimation immobilière Beez, agent immobilier Beez",
+        "canonical": "https://meilleure-agence.be/beez"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Belgrade",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Belgrade ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Belgrade avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Belgrade, comparateur agence immobilière Belgrade, devis agence immobilière Belgrade, estimation immobilière Belgrade, agent immobilier Belgrade",
+        "canonical": "https://meilleure-agence.be/belgrade"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Bièvre",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Bièvre ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Bièvre avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Bièvre, comparateur agence immobilière Bièvre, devis agence immobilière Bièvre, estimation immobilière Bièvre, agent immobilier Bièvre",
+        "canonical": "https://meilleure-agence.be/bievre"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Bonnine",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Bonnine ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Bonnine avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Bonnine, comparateur agence immobilière Bonnine, devis agence immobilière Bonnine, estimation immobilière Bonnine, agent immobilier Bonnine",
+        "canonical": "https://meilleure-agence.be/bonnine"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Bouge",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Bouge ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Bouge avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Bouge, comparateur agence immobilière Bouge, devis agence immobilière Bouge, estimation immobilière Bouge, agent immobilier Bouge",
+        "canonical": "https://meilleure-agence.be/bouge"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Cerfontaine",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Cerfontaine ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Cerfontaine avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Cerfontaine, comparateur agence immobilière Cerfontaine, devis agence immobilière Cerfontaine, estimation immobilière Cerfontaine, agent immobilier Cerfontaine",
+        "canonical": "https://meilleure-agence.be/cerfontaine"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Champion",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Champion ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Champion avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Champion, comparateur agence immobilière Champion, devis agence immobilière Champion, estimation immobilière Champion, agent immobilier Champion",
+        "canonical": "https://meilleure-agence.be/champion"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Ciney",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Ciney ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Ciney avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Ciney, comparateur agence immobilière Ciney, devis agence immobilière Ciney, estimation immobilière Ciney, agent immobilier Ciney",
+        "canonical": "https://meilleure-agence.be/ciney"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Cognelée",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Cognelée ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Cognelée avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Cognelée, comparateur agence immobilière Cognelée, devis agence immobilière Cognelée, estimation immobilière Cognelée, agent immobilier Cognelée",
+        "canonical": "https://meilleure-agence.be/cognelee"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Couvin",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Couvin ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Couvin avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Couvin, comparateur agence immobilière Couvin, devis agence immobilière Couvin, estimation immobilière Couvin, agent immobilier Couvin",
+        "canonical": "https://meilleure-agence.be/couvin"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Daussoulx",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Daussoulx ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Daussoulx avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Daussoulx, comparateur agence immobilière Daussoulx, devis agence immobilière Daussoulx, estimation immobilière Daussoulx, agent immobilier Daussoulx",
+        "canonical": "https://meilleure-agence.be/daussoulx"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Dave",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Dave ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Dave avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Dave, comparateur agence immobilière Dave, devis agence immobilière Dave, estimation immobilière Dave, agent immobilier Dave",
+        "canonical": "https://meilleure-agence.be/dave"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Dinant",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Dinant ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Dinant avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Dinant, comparateur agence immobilière Dinant, devis agence immobilière Dinant, estimation immobilière Dinant, agent immobilier Dinant",
+        "canonical": "https://meilleure-agence.be/dinant"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Doische",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Doische ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Doische avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Doische, comparateur agence immobilière Doische, devis agence immobilière Doische, estimation immobilière Doische, agent immobilier Doische",
+        "canonical": "https://meilleure-agence.be/doische"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Éghezée",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Éghezée ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Éghezée avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Éghezée, comparateur agence immobilière Éghezée, devis agence immobilière Éghezée, estimation immobilière Éghezée, agent immobilier Éghezée",
+        "canonical": "https://meilleure-agence.be/eghezee"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Erpent",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Erpent ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Erpent avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Erpent, comparateur agence immobilière Erpent, devis agence immobilière Erpent, estimation immobilière Erpent, agent immobilier Erpent",
+        "canonical": "https://meilleure-agence.be/erpent"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Fernelmont",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Fernelmont ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Fernelmont avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Fernelmont, comparateur agence immobilière Fernelmont, devis agence immobilière Fernelmont, estimation immobilière Fernelmont, agent immobilier Fernelmont",
+        "canonical": "https://meilleure-agence.be/fernelmont"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Flawinne",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Flawinne ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Flawinne avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Flawinne, comparateur agence immobilière Flawinne, devis agence immobilière Flawinne, estimation immobilière Flawinne, agent immobilier Flawinne",
+        "canonical": "https://meilleure-agence.be/flawinne"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Florennes",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Florennes ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Florennes avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Florennes, comparateur agence immobilière Florennes, devis agence immobilière Florennes, estimation immobilière Florennes, agent immobilier Florennes",
+        "canonical": "https://meilleure-agence.be/florennes"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Floreffe",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Floreffe ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Floreffe avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Floreffe, comparateur agence immobilière Floreffe, devis agence immobilière Floreffe, estimation immobilière Floreffe, agent immobilier Floreffe",
+        "canonical": "https://meilleure-agence.be/floreffe"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Fosse-la-Ville",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Fosse-la-Ville ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Fosse-la-Ville avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Fosse-la-Ville, comparateur agence immobilière Fosse-la-Ville, devis agence immobilière Fosse-la-Ville, estimation immobilière Fosse-la-Ville, agent immobilier Fosse-la-Ville",
+        "canonical": "https://meilleure-agence.be/fosse-la-ville"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Gembloux",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Gembloux ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Gembloux avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Gembloux, comparateur agence immobilière Gembloux, devis agence immobilière Gembloux, estimation immobilière Gembloux, agent immobilier Gembloux",
+        "canonical": "https://meilleure-agence.be/gembloux"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Gelbressée",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Gelbressée ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Gelbressée avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Gelbressée, comparateur agence immobilière Gelbressée, devis agence immobilière Gelbressée, estimation immobilière Gelbressée, agent immobilier Gelbressée",
+        "canonical": "https://meilleure-agence.be/gelbressee"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Gesves",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Gesves ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Gesves avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Gesves, comparateur agence immobilière Gesves, devis agence immobilière Gesves, estimation immobilière Gesves, agent immobilier Gesves",
+        "canonical": "https://meilleure-agence.be/gesves"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Hamois",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Hamois ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Hamois avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Hamois, comparateur agence immobilière Hamois, devis agence immobilière Hamois, estimation immobilière Hamois, agent immobilier Hamois",
+        "canonical": "https://meilleure-agence.be/hamois"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Hastière",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Hastière ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Hastière avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Hastière, comparateur agence immobilière Hastière, devis agence immobilière Hastière, estimation immobilière Hastière, agent immobilier Hastière",
+        "canonical": "https://meilleure-agence.be/hastiere"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Jambes",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Jambes ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Jambes avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Jambes, comparateur agence immobilière Jambes, devis agence immobilière Jambes, estimation immobilière Jambes, agent immobilier Jambes",
+        "canonical": "https://meilleure-agence.be/jambes"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Jemeppe-sur-Sambre",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Jemeppe-sur-Sambre ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Jemeppe-sur-Sambre avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Jemeppe-sur-Sambre, comparateur agence immobilière Jemeppe-sur-Sambre, devis agence immobilière Jemeppe-sur-Sambre, estimation immobilière Jemeppe-sur-Sambre, agent immobilier Jemeppe-sur-Sambre",
+        "canonical": "https://meilleure-agence.be/jemeppe-sur-sambre"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "La Bruyère",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à La Bruyère ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de La Bruyère avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière La Bruyère, comparateur agence immobilière La Bruyère, devis agence immobilière La Bruyère, estimation immobilière La Bruyère, agent immobilier La Bruyère",
+        "canonical": "https://meilleure-agence.be/la-bruyere"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Lives",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Lives ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Lives avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Lives, comparateur agence immobilière Lives, devis agence immobilière Lives, estimation immobilière Lives, agent immobilier Lives",
+        "canonical": "https://meilleure-agence.be/lives"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Loyers",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Loyers ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Loyers avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Loyers, comparateur agence immobilière Loyers, devis agence immobilière Loyers, estimation immobilière Loyers, agent immobilier Loyers",
+        "canonical": "https://meilleure-agence.be/loyers"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Malonne",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Malonne ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Malonne avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Malonne, comparateur agence immobilière Malonne, devis agence immobilière Malonne, estimation immobilière Malonne, agent immobilier Malonne",
+        "canonical": "https://meilleure-agence.be/malonne"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Marche-les-Dames",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Marche-les-Dames ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Marche-les-Dames avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Marche-les-Dames, comparateur agence immobilière Marche-les-Dames, devis agence immobilière Marche-les-Dames, estimation immobilière Marche-les-Dames, agent immobilier Marche-les-Dames",
+        "canonical": "https://meilleure-agence.be/marche-les-dames"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Mettet",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Mettet ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Mettet avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Mettet, comparateur agence immobilière Mettet, devis agence immobilière Mettet, estimation immobilière Mettet, agent immobilier Mettet",
+        "canonical": "https://meilleure-agence.be/mettet"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Naninne",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Naninne ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Naninne avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Naninne, comparateur agence immobilière Naninne, devis agence immobilière Naninne, estimation immobilière Naninne, agent immobilier Naninne",
+        "canonical": "https://meilleure-agence.be/naninne"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Ohey",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Ohey ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Ohey avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Ohey, comparateur agence immobilière Ohey, devis agence immobilière Ohey, estimation immobilière Ohey, agent immobilier Ohey",
+        "canonical": "https://meilleure-agence.be/ohey"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Onhaye",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Onhaye ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Onhaye avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Onhaye, comparateur agence immobilière Onhaye, devis agence immobilière Onhaye, estimation immobilière Onhaye, agent immobilier Onhaye",
+        "canonical": "https://meilleure-agence.be/onhaye"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Philippeville",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Philippeville ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Philippeville avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Philippeville, comparateur agence immobilière Philippeville, devis agence immobilière Philippeville, estimation immobilière Philippeville, agent immobilier Philippeville",
+        "canonical": "https://meilleure-agence.be/philippeville"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Saint-Marc",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Saint-Marc ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Saint-Marc avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Saint-Marc, comparateur agence immobilière Saint-Marc, devis agence immobilière Saint-Marc, estimation immobilière Saint-Marc, agent immobilier Saint-Marc",
+        "canonical": "https://meilleure-agence.be/saint-marc"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Saint-Servais",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Saint-Servais ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Saint-Servais avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Saint-Servais, comparateur agence immobilière Saint-Servais, devis agence immobilière Saint-Servais, estimation immobilière Saint-Servais, agent immobilier Saint-Servais",
+        "canonical": "https://meilleure-agence.be/saint-servais"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Sambreville",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Sambreville ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Sambreville avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Sambreville, comparateur agence immobilière Sambreville, devis agence immobilière Sambreville, estimation immobilière Sambreville, agent immobilier Sambreville",
+        "canonical": "https://meilleure-agence.be/sambreville"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Sombreffe",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Sombreffe ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Sombreffe avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Sombreffe, comparateur agence immobilière Sombreffe, devis agence immobilière Sombreffe, estimation immobilière Sombreffe, agent immobilier Sombreffe",
+        "canonical": "https://meilleure-agence.be/sombreffe"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Suarlée",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Suarlée ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Suarlée avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Suarlée, comparateur agence immobilière Suarlée, devis agence immobilière Suarlée, estimation immobilière Suarlée, agent immobilier Suarlée",
+        "canonical": "https://meilleure-agence.be/suarlee"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Temploux",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Temploux ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Temploux avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Temploux, comparateur agence immobilière Temploux, devis agence immobilière Temploux, estimation immobilière Temploux, agent immobilier Temploux",
+        "canonical": "https://meilleure-agence.be/temploux"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Vedrin",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Vedrin ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Vedrin avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Vedrin, comparateur agence immobilière Vedrin, devis agence immobilière Vedrin, estimation immobilière Vedrin, agent immobilier Vedrin",
+        "canonical": "https://meilleure-agence.be/vedrin"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Walcourt",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Walcourt ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Walcourt avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Walcourt, comparateur agence immobilière Walcourt, devis agence immobilière Walcourt, estimation immobilière Walcourt, agent immobilier Walcourt",
+        "canonical": "https://meilleure-agence.be/walcourt"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Wépion",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Wépion ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Wépion avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Wépion, comparateur agence immobilière Wépion, devis agence immobilière Wépion, estimation immobilière Wépion, agent immobilier Wépion",
+        "canonical": "https://meilleure-agence.be/wepion"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Wierde",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Wierde ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Wierde avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Wierde, comparateur agence immobilière Wierde, devis agence immobilière Wierde, estimation immobilière Wierde, agent immobilier Wierde",
+        "canonical": "https://meilleure-agence.be/wierde"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    },
+    {
+      "nom": "Yvoir",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Yvoir ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Yvoir avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Yvoir, comparateur agence immobilière Yvoir, devis agence immobilière Yvoir, estimation immobilière Yvoir, agent immobilier Yvoir",
+        "canonical": "https://meilleure-agence.be/yvoir"
+      },
+      "principale": "Namur",
+      "principaleSlug": "namur"
+    }
+  ]
+}

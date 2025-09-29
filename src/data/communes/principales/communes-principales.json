@@ -1,0 +1,58 @@
+{
+  "communes": [
+    {
+      "nom": "Bruxelles",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Bruxelles ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Bruxelles avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Bruxelles, comparateur agence immobilière Bruxelles, devis agence immobilière Bruxelles, estimation immobilière Bruxelles, agent immobilier Bruxelles",
+        "canonical": "https://meilleure-agence.be/bruxelles"
+      }
+    },
+    {
+      "nom": "Namur",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Namur ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Namur avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Namur, comparateur agence immobilière Namur, devis agence immobilière Namur, estimation immobilière Namur, agent immobilier Namur",
+        "canonical": "https://meilleure-agence.be/namur"
+      }
+    },
+    {
+      "nom": "Charleroi",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Charleroi ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Charleroi avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Charleroi, comparateur agence immobilière Charleroi, devis agence immobilière Charleroi, estimation immobilière Charleroi, agent immobilier Charleroi",
+        "canonical": "https://meilleure-agence.be/charleroi"
+      }
+    },
+    {
+      "nom": "Mons",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Mons ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Mons avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Mons, comparateur agence immobilière Mons, devis agence immobilière Mons, estimation immobilière Mons, agent immobilier Mons",
+        "canonical": "https://meilleure-agence.be/mons"
+      }
+    },
+    {
+      "nom": "Liège",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Liège ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Liège avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Liège, comparateur agence immobilière Liège, devis agence immobilière Liège, estimation immobilière Liège, agent immobilier Liège",
+        "canonical": "https://meilleure-agence.be/liege"
+      }
+    },
+    {
+      "nom": "Brabant wallon",
+      "seo": {
+        "title": "Meilleure agence | Comparateur d'agence immobilieres à Brabant wallon ?",
+        "description": "Recevez 4 devis d'agence immobilière proche de Brabant wallon avant de vous décider et économisez jusqu'à 50%",
+        "keywords": "meilleure agence immobilière Brabant wallon, comparateur agence immobilière Brabant wallon, devis agence immobilière Brabant wallon, estimation immobilière Brabant wallon, agent immobilier Brabant wallon",
+        "canonical": "https://meilleure-agence.be/brabant-wallon"
+      }
+    }
+  ]
+}

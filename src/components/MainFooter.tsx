@@ -26,7 +26,11 @@ export default function MainFooter() {
           <div className="md:col-span-2">
             <h4 className="font-semibold text-gray-900 mb-4 text-lg">À propos de nous</h4>
             <ul className="space-y-2">
-              <li><a href="/contact" className="text-gray-600 hover:text-primary-600 transition-colors duration-200">Contact</a></li>
+              <li>
+                <Link href="/contact" className="text-gray-600 hover:text-primary-600 transition-colors duration-200">
+                  Contact
+                </Link>
+              </li>
             </ul>
           </div>
 
