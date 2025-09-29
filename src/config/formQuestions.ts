@@ -21,8 +21,8 @@
 // ÉTAPE 1 : VENTE IMMOBILIÈRE
 // ============================================================================
 export const step1Questions: StepQuestions = {
-  title: "Votre vente immobilière",
-  subtitle: "Décrivez-nous votre agence idéale",
+  title: "Valeur du bien que je souhaite vendre",
+  subtitle: "Décrivez-nous votre projet de vente",
   questions: [
     {
       id: "city",
@@ -33,7 +33,7 @@ export const step1Questions: StepQuestions = {
     },
     {
       id: "propertyValue",
-      label: "Valeur du bien à vendre",
+      label: "Valeur du bien que je souhaite vendre",
       type: "select",
       required: true,
       placeholder: "Sélectionnez la valeur",
@@ -48,7 +48,7 @@ export const step1Questions: StepQuestions = {
     },
     {
       id: "timeline",
-      label: "Délai de votre projet",
+      label: "Délai pour la vente de mon bien",
       type: "select",
       required: true,
       placeholder: "Sélectionnez un délai",
@@ -67,7 +67,7 @@ export const step1Questions: StepQuestions = {
 // ÉTAPE 2 : DÉTAILS DU BIEN À VENDRE
 // ============================================================================
 export const step2Questions: StepQuestions = {
-  title: "Détails du bien à vendre",
+  title: "Détail du bien que je vends",
   subtitle: "Précisez les caractéristiques de votre bien",
   questions: [
     {
@@ -117,11 +117,11 @@ export const step2Questions: StepQuestions = {
 };
 
 // ============================================================================
-// ÉTAPE 3 : COORDONNÉES
+// ÉTAPE 3 : COORDONNÉES DU VENDEUR
 // ============================================================================
 export const step3Questions: StepQuestions = {
-  title: "Vos coordonnées",
-  subtitle: "Finalisez votre demande",
+  title: "Coordonnées du vendeur",
+  subtitle: "Finalisez votre demande de vente",
   questions: [
     {
       id: "firstName",
@@ -150,10 +150,10 @@ export const step3Questions: StepQuestions = {
     },
     {
       id: "additionalInfo",
-      label: "Informations supplémentaires",
+      label: "Informations supplémentaires sur la vente de mon bien",
       type: "textarea",
       required: false,
-      placeholder: "Précisions sur votre projet, contraintes particulières...",
+      placeholder: "Précisions sur votre bien à vendre, contraintes particulières, raisons de la vente...",
       rows: 4
     }
   ]
